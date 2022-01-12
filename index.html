@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Splittor</title>
+    <style>
+        body {
+            background-color: grey;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 60px;
+        }
+        input{
+            font-size: 2rem; font-family: 'Courier New', Courier, monospace;
+            margin-top: 20px;
+        }
+        button{
+            font-size: 2rem; font-family: 'Courier New', Courier, monospace;
+            margin-top: 30px; background-color: rgb(104, 104, 104);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Let's Split the Bill</h1>
+    <form action="/" method="post">
+        <input type="text" name="rupees" placeholder="Total Amount">
+        <input type="text" name="number" placeholder="Number of People">
+        <br>
+        <button type="submit" name="Submit">Calculate</button>
+    </form>
+</body>
+</html>
